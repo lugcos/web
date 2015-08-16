@@ -510,8 +510,8 @@ REDIRECTIONS = []
 # (the thumbnail has ``.thumbnail`` added before the file extension).
 # The format is a dictionary of {source: relative destination}.
 
-IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_FOLDERS = {'images': ''}
+IMAGE_THUMBNAIL_SIZE = 580
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
