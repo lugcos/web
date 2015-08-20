@@ -84,4 +84,51 @@ Esto es texto antes del enlace
 `esto es texto enlazado si se hace click se baja el archivo <manual.pdf>`_.
 ```
 
+4) En una terminal aparte, activar nikola y correr el servidor web local para ir viendo como va quedando:
+
+```bash
+cd nikola
+source bin/activate
+cd web
+nikola serve --browse
+```
+Se abrirá el navegador en `http://0.0.0.0:8000`.
+
+5) En la terminal original, compilar el sitio:
+
+
+```bash
+nikola build
+```
+se regenera el html que haya cambiado y se escribe todo en la carpeta output.
+
+Mirar el resultado en el navegador. Si algo no nos gusta, volver a editar el archivo .rst y volver a compilar.
+
+Cuando estemos contentos con el resultado, subir los cambios a Internet.
+
+6) Dentro de la carpeta `web`:
+
+```bash
+git add .
+git commit -m "Texto explicando que se hizo"
+git status
+```
+
+(verificar que la salida diga algo como "1 commit adelante de master")
+
+
+```bash
+git push
+```
+
+Luego en la carpeta output, lo mismo:
+
+```bash
+cd output
+git add .
+git commit -m "Texto explicando que se hizo"
+git status
+git push
+```
+
 
