@@ -48,5 +48,40 @@ Se crea el archivo `posts/titulo-del-post.rst`
 .. category: Electrónica
 ```
 
-3.3) Borrar `Write your post here.` y empezar a escribir ahí el post.
+3.3) Borrar `Write your post here.` y empezar a escribir ahí el post. El post se escribe en restructuredtext. Por ejemplo, algo entre * es *cursiva*, algo entre ** es **negrita**.
+
+¿Cómo agregar imágenes?
+
+Dentro de la carpeta `images/posts´ crear una carpeta con el mismo nombre del archivo del post pero sin la extensión. En el ejemplo sería (si estamos parados en `web`):
+
+```bash
+mkdir images/posts/titulo-del-post
+```
+
+Copiar la imagen, por ejemplo `imagen1.jpg` a la carpeta creada.
+
+En el post escribir:
+
+```rst
+.. figure:: imagen1.thumbnail.jpg
+   :target: imagen1.jpg
+```
+
+¿Cómo subir un archivo?
+
+Dentro de la carpeta `files/posts´ crear una carpeta con el mismo nombre del archivo del post pero sin la extensión. En el ejemplo sería (si estamos parados en `web`):
+
+```bash
+mkdir images/files/titulo-del-post
+```
+
+Copiar el archivo, por ejemplo `manual.pdf` a la carpeta creada.
+
+En el post escribir algo como lo siguiente, el texto es de ejemplo:
+
+```rst
+Esto es texto antes del enlace
+`esto es texto enlazado si se hace click se baja el archivo <manual.pdf>`_.
+```
+
 
