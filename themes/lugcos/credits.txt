@@ -1,0 +1,1 @@
+original: https://github.com/humitos/blog/tree/master/nikola/themes/elblogdehumitos
