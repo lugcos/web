@@ -52,7 +52,7 @@ Se crea el archivo `posts/titulo-del-post.rst`
 
 ¿Cómo agregar imágenes?
 
-Dentro de la carpeta `images/posts´ crear una carpeta con el mismo nombre del archivo del post pero sin la extensión. En el ejemplo sería (si estamos parados en `web`):
+Dentro de la carpeta `images/posts` crear una carpeta con el mismo nombre del archivo del post pero sin la extensión. En el ejemplo sería (si estamos parados en `web`):
 
 ```bash
 mkdir images/posts/titulo-del-post
@@ -69,7 +69,7 @@ En el post escribir:
 
 ¿Cómo subir un archivo?
 
-Dentro de la carpeta `files/posts´ crear una carpeta con el mismo nombre del archivo del post pero sin la extensión. En el ejemplo sería (si estamos parados en `web`):
+Dentro de la carpeta `files/posts` crear una carpeta con el mismo nombre del archivo del post pero sin la extensión. En el ejemplo sería (si estamos parados en `web`):
 
 ```bash
 mkdir images/files/titulo-del-post
