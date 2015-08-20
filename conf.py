@@ -26,7 +26,7 @@ SITE_URL = "http://lugcos.github.io/"
 # If not set, defaults to SITE_URL
 BASE_URL = "http://lugcos.github.io/"
 BLOG_EMAIL = "jjconti@gmail.com"
-BLOG_DESCRIPTION = "Desde Linux a impresoras 3D"  # (translatable)
+BLOG_DESCRIPTION = "Desde GNU/Linux a impresoras 3D"  # (translatable)
 
 # Nikola is multilingual!
 #
