@@ -58,7 +58,7 @@ Dentro de la carpeta `images/posts` crear una carpeta con el mismo nombre del ar
 mkdir images/posts/titulo-del-post
 ```
 
-Copiar la imagen, por ejemplo `imagen1.jpg` a la carpeta creada.
+Copiar la imagen, por ejemplo `imagen1.jpg`, a la carpeta creada.
 
 En el post escribir:
 
