@@ -90,23 +90,17 @@ Esto es texto antes del enlace
 cd nikola
 source bin/activate
 cd web
-nikola serve --browse
+nikola auto -b
 ```
-Se abrirá el navegador en `http://0.0.0.0:8000`.
+Abrir el navegador en `http://0.0.0.0:8000`.
 
-5) En la terminal original, compilar el sitio:
+(el sitio se compilara luego de cada cambio de archivo y se escribe todo en la carpeta output)
 
-
-```bash
-nikola build
-```
-se regenera el html que haya cambiado y se escribe todo en la carpeta output.
-
-Mirar el resultado en el navegador. Si algo no nos gusta, volver a editar el archivo .rst y volver a compilar.
+Mirar el resultado en el navegador. Si algo no nos gusta, volver a editar el archivo .rst.
 
 Cuando estemos contentos con el resultado, subir los cambios a Internet.
 
-6) Dentro de la carpeta `web`:
+5) Dentro de la carpeta `web`:
 
 ```bash
 git add .
