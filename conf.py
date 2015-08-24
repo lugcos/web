@@ -203,7 +203,7 @@ TIMEZONE = "America/Argentina/Cordoba"
 
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/juanjoconti/*.html", "posts", "post.tmpl")
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
