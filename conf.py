@@ -932,7 +932,9 @@ UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
-
+ADDITIONAL_METADATA = {
+    'author': 'Completar con nombre o alias'
+}
 # Nikola supports Open Graph Protocol data for enhancing link sharing and
 # discoverability of your site on Facebook, Google+, and other services.
 # Open Graph is enabled by default.
